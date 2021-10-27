@@ -1,3 +1,5 @@
+# Script face_detection.py is used for face detection while streaming. It uses haar_cascades.xml script as a classifier. 
+
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 import time
