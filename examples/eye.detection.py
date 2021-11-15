@@ -8,8 +8,8 @@ camera = PiCamera()
 camera.resolution = (640, 480)
 camera.framerate = 32
 rawCapture = PiRGBArray(camera, size=(640, 480))
-face_cascade = cv2.CascadeClassifier('/home/pi/haar_cascades.xml')
-eye_cascade = cv2.CascadeClassifier('/home/pi/haarcascade_eye_tree_eyeglasses.xml')
+face_cascade = cv2.CascadeClassifier('haar_cascades.xml')
+eye_cascade = cv2.CascadeClassifier('haarcascade_eye_tree_eyeglasses.xml')
 
 def stream():
 	for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
