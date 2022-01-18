@@ -2,7 +2,7 @@
 Raspberry Pi camera scripts in python.
 
 ## Getting Started
-Python for face and eye detection while streaming with Raspberry Pi camera.
+Python for face and eye detection or making photos while streaming with Raspberry Pi camera.
 
 ### Prerequisites
 
