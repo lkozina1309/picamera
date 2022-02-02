@@ -1,3 +1,5 @@
+#Script gray.py gives you stream in grayscale format
+
 from picamera.array import PiRGBArray
 from picamera import PiCamera
 import time
